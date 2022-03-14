@@ -1,0 +1,107 @@
+select * from Errands
+
+select * from Categories
+
+select * from Persons
+
+insert into Categories values ('SEO')
+insert into Categories values ('JS')
+insert into Categories values ('JAVA')
+insert into Categories values ('PYTHON')
+insert into Categories values ('C#')
+insert into Categories values ('UX/UI')
+insert into Categories values ('HTML')
+insert into Categories values ('.NET')
+insert into Categories values ('GAME')
+insert into Categories values ('Ruby')
+
+
+INSERT INTO Errands (IsPaid, Rate, DateOfPublication,DateOfExecution,Status,CategoryId,Description,Localization,Name)
+VALUES (1, 120, '2021-12-17','2022-01-01',0,1,'Poszukujemy właśnie Ciebie, jeśli charakteryzują Cię:
+praktyczna znajomość HTML, PHP i CSS,
+doświadczenie na podobnym stanowisku oraz w pracy z Klientem (preferowane w agencji interaktywnej),
+umiejętność szybkiej i samodzielnej nauki,
+umiejętność obsługi systemów zarządzania treścią (np. WordPress, Joomla),
+znajomość popularnych skryptów eCommerce.','Warszawa/Zdalne','Specjalista SEO przygotowywanie strategii pozycjonowania strony');
+
+INSERT INTO Errands (IsPaid, Rate, DateOfPublication,DateOfExecution,Status,CategoryId,Description,Localization,Name)
+VALUES (1, 120, '2021-12-17','2022-01-01',0,2,'Opis stanowiska:
+Do obowiązków kandydata należeć będzie tworzenie backendu aplikacji webowych. 
+Wymagania:
+znajomość NodeJS (TypeScript),
+znajomość NestJS (lub doświadczenie w podobnych frameworkach),
+znajomość technologii bazodanowych SQL (MySQL) / NoSQL,
+znajomość architektury REST api,
+ogólna wiedza na temat rozwiązań architektury backendu i architektury serverless,
+znajomość technologii chmurowej - Google Cloud Platform,
+znajomość Git,','Warszawa','Senior React Developer -podpięcie backendu aplikacji ');
+
+INSERT INTO Errands (IsPaid, Rate, DateOfPublication,DateOfExecution,Status,CategoryId,Description,Localization,Name)
+VALUES (1, 80, '2021-12-17','2022-01-01',0,3,'Poszukuje osoby do pomocy w budowie projektu szkolnego w javie.
+Projekt to prosta gra typu Snake, jedyne wymagania to wykonanie za pomoca Java.Fx','Radom','Java - pomoc z projektem szkolnym');
+
+
+INSERT INTO Errands (IsPaid, Rate, DateOfPublication,DateOfExecution,Status,CategoryId,Description,Localization,Name)
+VALUES (1, 80, '2021-12-17','2022-01-01',0,4,'Poszukuje specjalisty do recenzji oraz korekty systemu wykonanego za pomocą pythona.
+W realizowanych projektach wspieramy badania naukowe poprzez analizę danych medycznych oraz akwizycję i analizę danych psychofizjologicznych
+pochodzących z biosensorów (GSR, EEG), oraz znajdujemy nowe zastosowań dla technologii przetwarzania obrazów w obszarze nauk psychologicznych, 
+społecznych i sporcie.
+','Gdynia','Python Developer - korekta kodu');
+
+INSERT INTO Errands (IsPaid, Rate, DateOfPublication,DateOfExecution,Status,CategoryId,Description,Localization,Name)
+VALUES (1, 80, '2021-12-17','2022-01-01',0,5,'Poszukujemy programisty Unity do pracy nad grą mobilną z gatunku fantasy, 
+opartej na geolokalizacji. Nasz główny projekt - World of Epic Hunters - jest już od pewnego czasu na rynku i intensywnie pracujemy nad jego rozwojem.
+','Warszawa','Junior Unity C# Developer');
+
+INSERT INTO Errands (IsPaid, Rate, DateOfPublication,DateOfExecution,Status,CategoryId,Description,Localization,Name)
+VALUES (1, 80, '2021-12-17','2022-01-01',0,6,'Poszukuje Osoby która podejmie się odświeżenia mojej prostej strony internetowej dotyczącej szkoły jazdy.
+Poszukuje osoby która zna obecne trendy oraz ma kreatywne pomysły.','Grójec','UX/UI Designer - odświeżenie strony');
+
+INSERT INTO Errands (IsPaid, Rate, DateOfPublication,DateOfExecution,Status,CategoryId,Description,Localization,Name)
+VALUES (1, 80, '2021-12-17','2022-01-01',0,7,'Witam,
+Moja firma zajmuje się sprowadzaniem oraz sprzedażą płyt brukowych oraz kafelków.
+Poszukuje osoby która uzupełni baze produktów która znajduje się na mojej stronie internetowej. 
+Przykładowy produkt będzie zawierał zdjęcie opis itd. 
+Dodawanie produktów wymaga odpowiedniej edycji czcionek i rozmiarów według schematu strony.','Piaseczno','HTML - uzupełnienie asortymentu sklepu internetowego');
+
+
+INSERT INTO Errands (IsPaid, Rate, DateOfPublication,DateOfExecution,Status,CategoryId,Description,Localization,Name)
+VALUES (1, 80, '2021-12-17','2022-01-01',0,7,'Witam,
+Moja firma zajmuje się sprowadzaniem oraz sprzedażą płyt brukowych oraz kafelków.
+Poszukuje osoby która uzupełni baze produktów która znajduje się na mojej stronie internetowej. 
+Przykładowy produkt będzie zawierał zdjęcie opis itd. 
+Dodawanie produktów wymaga odpowiedniej edycji czcionek i rozmiarów według schematu strony.','Piaseczno','HTML - uzupełnienie asortymentu sklepu internetowego');
+
+INSERT INTO Errands (IsPaid, Rate, DateOfPublication,DateOfExecution,Status,CategoryId,Description,Localization,Name)
+VALUES (1, 200, '2021-12-17','2022-01-01',0,8,'Jesteśmy autorem systemów optymalizujących realizację procesów biznesowych, obieg dokumentów,
+wspierających zarządzanie organizacją oraz dostawcą narzędzi analitycznych.
+Oczekujemy ofert od kandydatów zarówno z doświadczeniem dla określonych przez nas wymagań, jak i osób o mniejszym doświadczeniu.','Warszawa','Programista .NET - optymalizacja procesów bazy danych');
+
+INSERT INTO Errands (IsPaid, Rate, DateOfPublication,DateOfExecution,Status,CategoryId,Description,Localization,Name)
+VALUES (1, 100, '2021-12-17','2022-01-01',0,9,'Doświadczenie w programowaniu w silniku Unity (C#)
+Rozumienie specyfiki różnych platform (PC, mobilne, VR, AR, konsole)
+Umiejętność optymalizacji projektów w Unity
+Znajomość języka angielskiego na poziomie B2','Gdynia','Unity Developer - zastąpienie precownika');
+
+INSERT INTO Errands (IsPaid, Rate, DateOfPublication,DateOfExecution,Status,CategoryId,Description,Localization,Name)
+VALUES (1, 300, '2021-12-17','2022-01-01',0,9,'Szukamy osób, które są na poziomie juniora i chciałyby szybko przejść na poziom mid’a. Takich, które chcą szybciej niż dotychczas zdobywać doświadczenie zawodowe.
+Którzy szukają najlepszych praktyk i najnowszych technologii oraz prawdziwie zespołowego podejścia do pracy i wykonywanych zadań.
+
+REQUIREMENTS
+solidnych podstaw Ruby (ROR)
+znajomości:
+baz danych: MySQL lub PostgreSQL
+javascript
+ruby on rails 5+
+HTML
+CSS
+komunikatywności i umiejętności pracy w zespole,
+odpowiedzialności
+chęci rozwoju (ale skoro jesteś devem - to musisz je mieć :))
+reszty my Ciebie nauczymy!','Gdynia','Junior Ruby on Rails Developer');
+
+
+
+
+
+
